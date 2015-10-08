@@ -19,7 +19,8 @@ Please check out common DSC Resources [contributing guidelines](https://github.c
 * **UserCredential**: The user for which to store the credential.
 * **Target**: The host to store the credential for.
 * **TargetCredential**: The credential to connect to the target.
-* **Ensure**: Tells the resource if the credentials for the target should be present or absent
+* **Ensure**: Whether the stored credential should be added or removed.
+* **Force**:  Boolean, default is false.  Update the credential even if it already exists.
 
 
 ## Versions

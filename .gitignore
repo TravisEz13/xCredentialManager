@@ -1,2 +1,4 @@
 testresult.xml
 DscResource.Tests/
+*.sublime-project
+*.sublime-workspace
